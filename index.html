@@ -21,6 +21,7 @@
     .chart-container {
       max-width: 100%;
       height: 400px; 
+      margin-top: -50px;
       position: relative;
       padding-top: 60px;
       /* background-color: blue; */
@@ -187,9 +188,16 @@
     .grid-line-2029 {
       left: 74%;
     }
-
+.sharetextdiv{
+  display: flex; justify-content: center;column-gap: 20px;margin-bottom: -40px;width: 550px;
+}
     
     @media screen and (max-width: 480px){
+      .chart-container {
+     
+      margin-top: -70px;
+     
+    }
         .y-axis-labels {
       font-size: 0.6rem;
       line-height: 1;
@@ -449,7 +457,7 @@
       <div class="grid-line grid-line-2028"></div>
       <div class="grid-line grid-line-2029"></div>
     </div>
-    <div style="display: flex; justify-content: center;column-gap: 20px;margin-bottom: -40px;">
+    <div class="sharetextdiv">
         <div class="legend-item">
           <span class="sharetext">Share of Respondents</span>
         </div>
